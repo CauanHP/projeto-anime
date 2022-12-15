@@ -7,15 +7,70 @@
 }
 
 body {
-    background: black url('../imagens/anime-night-background-mpiye.webp') center top/cover no-repeat fixed;
+    background: black url('../imagens/281-2817292_retrowave-wallpaper-reddit.jpg') center top/cover no-repeat fixed;
+}
+
+header {
+    background-color: #0e0e0e69;
+    background-image: linear-gradient(to top, #ffffffb4 0%, #99267c71 100%);    
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    left: 1px;
+    border-radius: 0px 10px;
+    transition: width 0.3s height 0.3s;
+}
+
+header p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#burguer {
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+
+#burguer:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+menu {
+    font-weight: bolder;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+menu > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+menu > a:active {
+    color: rgb(255, 130, 130);
 }
 
 main {
     display: block;
     margin: auto;
     background-color: rgb(255, 255, 255);
+    overflow: hidden;
+
     max-width: 850px;
-    text-align: justify;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 main h1,h2 {
@@ -24,6 +79,15 @@ main h1,h2 {
     text-align: center;
     width: calc(50% -40px);
     font-size: 1.5em;
+    margin: 10px;
+}
+
+main p {
+    padding-left: 8px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 1.7em;
+    margin-bottom: 5px;
 }
 
 img {
@@ -32,6 +96,7 @@ img {
 }
 
 ul {
-    list-style-type: '\2714\00A0\00A0';
+    list-style-type: none;
     list-style-position: inside;
+    text-indent: 10px;
 }

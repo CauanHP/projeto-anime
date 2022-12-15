@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1200px) {
+
+    header {
+        color: white;
+        text-align: left;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    #burguer {
+        text-align: left;
+        display: block;
+        padding: 5px;
+    }
+
+    main p {
+        text-indent: 10px;
+        line-height: 2em;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        height: 500px;
+    }
+
+    menu {
+        width: 17%;
+    }
+
+    menu > a:hover {
+        border-left: 4px solid red;
+        padding: 2px;
+        transition: 0.6s;
+    }
+
+}
